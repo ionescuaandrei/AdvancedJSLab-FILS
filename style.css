@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  background: #f5f7fb;
+  color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+}
+
+.container {
+  width: 100%;
+  max-width: 480px;
+  background: white;
+  padding: 28px;
+  border-radius: 18px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+h1 {
+  margin-top: 0;
+  color: #ef4444;
+}
+
+.intro {
+  line-height: 1.5;
+  color: #4b5563;
+}
+
+.search-box {
+  display: flex;
+  gap: 8px;
+  margin-top: 20px;
+}
+
+input {
+  flex: 1;
+  padding: 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+button {
+  border: none;
+  border-radius: 10px;
+  padding: 12px 16px;
+  background: #ef4444;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #dc2626;
+}
+
+.message {
+  min-height: 24px;
+  margin: 18px 0;
+  color: #6b7280;
+}
+
+.message.error {
+  color: #dc2626;
+}
+
+.card {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 16px;
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+}
+
+.card img {
+  width: 140px;
+  height: 140px;
+  object-fit: contain;
+}
+
+.card h2 {
+  margin: 8px 0;
+  text-transform: capitalize;
+}
+
+.card p {
+  margin: 8px 0;
+}
+
+.hidden {
+  display: none;
+}

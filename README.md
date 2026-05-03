@@ -1,5 +1,11 @@
 # Advanced JS Lab - Pokedex app
 
+Here is the notion document to help you: 
+
+```txt
+https://www.notion.so/Advanced-Javascript-Simple-Pok-mon-Finder-355a368b7e0c804fb2fbf98314653f4b?source=copy_link
+```
+
 A very small JavaScript assignment for practicing:
 
 - `fetch()`

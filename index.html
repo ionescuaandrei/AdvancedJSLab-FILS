@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Pokémon Finder</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <main class="container">
+      <h1>Simple Pokémon Finder</h1>
+      <p class="intro">
+        Search for a Pokémon and show basic information using <strong>fetch</strong>,
+        <strong>async/await</strong>, and <strong>try...catch</strong>.
+      </p>
+
+      <form id="pokemon-form" class="search-box">
+        <input
+          id="pokemon-input"
+          type="text"
+          placeholder="Try: pikachu or 25"
+          autocomplete="off"
+          required
+        />
+        <button type="submit">Search</button>
+      </form>
+
+      <p id="message" class="message">Type a Pokémon name or ID.</p>
+
+      <section id="pokemon-card" class="card hidden">
+        <img id="pokemon-image" src="" alt="Pokémon image" />
+        <h2 id="pokemon-name"></h2>
+        <p id="pokemon-id"></p>
+        <p id="pokemon-type"></p>
+        <p id="pokemon-height"></p>
+        <p id="pokemon-weight"></p>
+      </section>
+    </main>
+  </body>
+</html>
